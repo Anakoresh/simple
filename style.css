@@ -183,7 +183,7 @@ h3 {
     background-color: #DDDDDD;
     position: absolute;
     left: 0;
-    z-index: -1;
+    display: none;
 }
 
 .line:first-child {
@@ -199,7 +199,7 @@ h3 {
     height: 100vh;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 2;
     width: 100%;
     display: none; 
 }
@@ -370,7 +370,7 @@ h3 {
     }
 
     .line {
-        z-index: 2;
+        display: block;
     }
 
     .main-title {
